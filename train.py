@@ -37,7 +37,7 @@ class Trainer(object):
         diffusion_model,
         folder,
         *,
-        train_batch_size = 128,
+        train_batch_size = 8,
         train_lr = 1e-4,
         train_num_steps = 100000,
         save_every = 1000,
